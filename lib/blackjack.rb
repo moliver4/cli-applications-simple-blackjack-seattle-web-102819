@@ -36,7 +36,7 @@ def hit?(card_total)
     new_card = deal_card
     card_total += new_card
     display_card_total(card_total)
-  elsif input == 's'
+  elsif get_user_input == 's'
     display_card_total(card_total)
     return card_total
   end
