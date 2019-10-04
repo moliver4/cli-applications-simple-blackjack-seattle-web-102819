@@ -40,7 +40,7 @@ def hit?(card_total)
     display_card_total(card_total)
     return card_total
   end
-  while (input != 'h' && input != 's') do
+  while (get_user_input != 'h' && get_user_input != 's') do
     invalid_command
     prompt_user
     input = get_user_input
